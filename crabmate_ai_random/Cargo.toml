@@ -1,0 +1,10 @@
+[package]
+name = "crabmate_ai_random"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crabmate_chess = { path = "../crabmate_chess" }
+crabmate_gameplay = { path = "../crabmate_gameplay" }
+bevy = "0.16.0"
+rand = "0.9.1"

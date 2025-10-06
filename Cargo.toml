@@ -1,0 +1,18 @@
+[package]
+name = "crabmate"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.dev]
+opt-level = 1
+
+[dependencies]
+crabmate_chess = { path = "./crabmate_chess" }
+crabmate_gameplay = { path = "./crabmate_gameplay" }
+crabmate_ai_random = { path = "./crabmate_ai_random" }
+crabmate_ai_minimax = { path = "./crabmate_ai_minimax" }
+crabmate_interaction = { path = "./crabmate_interaction" }
+bevy = "0.16.0"
